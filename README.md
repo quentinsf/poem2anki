@@ -11,22 +11,26 @@ It's easy to find most classic poems on the web and copy and paste them into a t
 The basic idea is that Anki will prompt you with a few lines of a poem and you need to respond with the next line.  For example:
 
 _Question:_
-:This day is call’d the feast of Crispian.  
-He that outlives this day, and comes safe home,  
-Will stand a tip-toe when this day is nam’d,
+
+    This day is call’d the feast of Crispian.  
+    He that outlives this day, and comes safe home,  
+    Will stand a tip-toe when this day is nam’d,
 
 _Answer_:
-:And rouse him at the name of Crispian.
+
+    And rouse him at the name of Crispian.
 
 On the next card, everything will have moved down one line:
 
 _Question:_:
-:He that outlives this day, and comes safe home,  
-Will stand a tip-toe when this day is nam’d,  
-And rouse him at the name of Crispian.
+
+    He that outlives this day, and comes safe home,  
+    Will stand a tip-toe when this day is nam’d,  
+    And rouse him at the name of Crispian.
 
 _Answer_:
-:He that shall live this day, and see old age,
+
+    He that shall live this day, and see old age,
 
 By default, after the first couple of cards, there are three lines of poem on the front (question) part of the card, and the following line then forms the 'answer' on the back.   You can change how many lines are in the question and answer by using the _-q_ and _-a_ options when running the script.
 
