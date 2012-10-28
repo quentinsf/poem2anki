@@ -62,7 +62,7 @@ You can import the result into Anki using the desktop client, after which you ca
 
 * Click on the 'Deck' button to choose the deck to which they should be added, or to create a new one.
 
-* When that's done, check that Anqi has detected that the fields are separated by tabs, and click import.
+* When that's done, check that Anqi has detected that the fields are separated by tabs, select the option to allow HTML in the fields (if your Anki has that option) because we use it for line breaks, and click _Import_.
 
 
 
