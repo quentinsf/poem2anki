@@ -58,7 +58,7 @@ def main():
     # Then print cards until we run out of input lines
     try:
         while True:
-            print "<br>".join(questions), "\t", "<br>".join(answers)
+            print "<br />".join(questions), "\t", "<br />".join(answers)
             cardshift(line_reader.next())
     except StopIteration:
         pass
