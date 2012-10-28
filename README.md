@@ -44,13 +44,13 @@ Exactly _how_ you run a Python script on your machine will depend on your operat
 
 or perhaps
 
-    python poem2anky.py < sonnet18.txt > sonnet18.csv
+    python poem2anki.py < sonnet18.txt > sonnet18.csv
 
 in a terminal window to convert the sample _Shall I compare thee?_ file.
 
 On Windows, you'll need to install [Python](http://www.python.org) first (which isn't hard) and then do something like:
 
-    c:\python27\python.exe poem2anky.py < sonnet18.txt > sonnet18.csv
+    c:\python27\python.exe poem2anki.py < sonnet18.txt > sonnet18.csv
 
 at a command prompt.
 
