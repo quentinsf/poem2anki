@@ -38,19 +38,21 @@ For best effect, read the lines out loud to yourself when studying the cards.  S
 
 ## Using poem2anki
 
+You need a reasonably recent version of python and the argparse library.  (argparse seems to get installed along with Python by default on Windows).
+
 Exactly _how_ you run a Python script on your machine will depend on your operating system.  On a Mac or Linux machine, you should do something like:
 
-    ./poem2anki.py < sonnet18.txt > sonnet18.csv
+    ./poem2anki.py < sonnet18.txt > sonnet18.tsv
 
 or perhaps
 
-    python poem2anki.py < sonnet18.txt > sonnet18.csv
+    python poem2anki.py < sonnet18.txt > sonnet18.tsv
 
 in a terminal window to convert the sample _Shall I compare thee?_ file.
 
 On Windows, you'll need to install [Python](http://www.python.org) first (which isn't hard) and then do something like:
 
-    c:\python27\python.exe poem2anki.py < sonnet18.txt > sonnet18.csv
+    c:\python27\python.exe poem2anki.py < sonnet18.txt > sonnet18.tsv
 
 at a command prompt.
 
@@ -62,7 +64,7 @@ You can import the result into Anki using the desktop client, after which you ca
 
 * Click on the 'Deck' button to choose the deck to which they should be added, or to create a new one.
 
-* When that's done, check that Anqi has detected that the fields are separated by tabs, select the option to allow HTML in the fields (if your Anki has that option) because we use it for line breaks, and click _Import_.
+* When that's done, check that Anki has detected that the fields are separated by tabs, select the option to allow HTML in the fields (if your Anki has that option) because we use it for line breaks, and click _Import_.
 
 
 
