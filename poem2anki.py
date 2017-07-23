@@ -50,7 +50,7 @@ def main():
     # We need one question line plus however many answer lines
     try:
         for i in range(1 + alines):
-            cardshift(line_reader.next())
+            cardshift(next(line_reader))
     except StopIteration:
         print >>sys.stderr, "Insufficient lines for a single card"
         sys.exit()
@@ -58,8 +58,8 @@ def main():
     # Then print cards until we run out of input lines
     try:
         while True:
-            print "<br />".join(questions), "\t", "<br />".join(answers)
-            cardshift(line_reader.next())
+            print ("<br />".join(questions), "\t", "<br />".join(answers))
+            cardshift(next(line_reader))
     except StopIteration:
         pass
 
